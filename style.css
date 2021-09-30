@@ -1,0 +1,801 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-container {}
+
+.header-main-container {
+    width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    height: auto;
+    margin-left: 130px;
+
+}
+
+.header-menu-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-container {
+    flex: 0;
+}
+
+.logo {
+    width: 170px;
+
+}
+
+.explore-investment-text-container {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.explore {
+    margin-top: 12px;
+    font-size: 20px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    color: rgb(122, 226, 183);
+
+
+}
+
+.investment {
+    margin-top: 12px;
+    font-size: 20px;
+    padding-left: 20px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+
+}
+
+.searchbox-container {
+    flex: 5;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#search {
+    font-size: 15px;
+    color: #A6A6A6;
+    margin-top: 5px;
+    width: 390px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 159, 159);
+    box-shadow: 0px 5px 5px #F4F4F4;
+}
+
+.search-icon {
+    color: rgb(129, 123, 123);
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.menu-icons-container {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.material-icons.md-28 {
+    color: rgb(165, 158, 158);
+    font-size: 28px;
+    padding: 2px 5px;
+    margin: 0px 10px;
+    margin-top: 7px;
+    flex: 1;
+
+
+}
+
+.bell {
+    color: red;
+    /* padding-left: 25px; */
+}
+
+.bell-notification-div {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(61, 212, 149);
+    margin-left: -30px;
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+
+.profile-img-icon-container {}
+
+.profile-img {}
+
+.material-icons.md-25 {
+    margin-top: -20px;
+}
+
+.dropdown-arrow {
+    padding-top: 20px;
+
+}
+
+.ac-img-container {
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub-header-container {
+    padding-top: 40px;
+}
+
+.submenu-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.submenu {
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.content-container {
+    /* background-color: green; */
+    border-top: 2px solid rgb(219, 212, 212);
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.stock-overview-container {
+    /* border: 1px solid red; */
+    flex: 6;
+    margin-left: 130px;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    /* background-color: blue; */
+}
+
+.market-close-time-div {
+    font-size: 15px;
+    color: rgb(170, 166, 166);
+    margin-left: 10px;
+
+}
+
+.index-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 10px;
+
+}
+
+.index-card-1 {
+    flex: 1;
+}
+
+.index-text {
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.index-card-2 {
+    flex: 1;
+}
+
+.nifty-card-container,
+.sensex-card-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    /* border: 1px solid rgb(202, 198, 198); */
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    box-shadow: 1px 0px 5px 1px rgb(230 230 230);
+    padding-top: 20px;
+}
+
+.nifty-text-container,
+.sensex-text-container {
+    flex: 1;
+    padding: 5px;
+}
+
+.nifty-text,
+.sensex-text {
+    font-size: 15px;
+
+}
+
+.nse-text,
+.bse-text {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #7C7E8C;
+    margin-top: 5px;
+}
+
+.nifty-graph-container,
+.sensex-graph-container {
+    flex: 1;
+}
+
+.nifty-amount-container,
+.sensex-amount-container {
+    flex: 1;
+}
+
+.nifty-total-amt,
+.sensex-total-amt {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.nifty-amt-differ,
+.sensex-amt-differ {
+    font-size: 15px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.screener-btn {
+    background-color: gray;
+    border-radius: 20px;
+    border: 1px solid rgb(92, 173, 133);
+    color: #E5FAF5;
+    font-size: 15px;
+    background-color: rgb(202, 255, 246);
+    color: rgb(106, 216, 170);
+    width: 80px;
+    height: 30px;
+}
+
+.screener-button-container {
+    text-align: end;
+    margin-right: 20px;
+
+}
+
+.stock-in-news-container,
+.top-gainers-container {
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+.stock-in-news-text-container,
+.top-gainers-text-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.nifty-100-text {
+    /* text-align: left; */
+    flex: 1;
+    font-size: 14px;
+    margin-left: -50px;
+    margin-top: 5px;
+    color: rgb(56, 212, 173);
+
+}
+
+.stock-in-news-text {
+    font-size: 20px;
+    flex: 1;
+}
+
+.top-gainers-text {
+    font-size: 20px;
+    flex: 2;
+}
+
+.news-btn-container {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.seemore-btn-container {
+    flex: 7;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+}
+
+.news-btn {
+    background-color: rgb(202, 255, 246);
+    color: rgb(106, 216, 170);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+    border: 1px solid rgb(209, 208, 208);
+
+}
+
+.seemore-btn {
+
+    color: rgb(106, 216, 170);
+
+    font-size: 12px;
+
+    text-align: right;
+}
+
+
+
+.stockinnews-cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.stockinnews-card {
+    width: 170px;
+    height: 180px;
+    /* border: 1px solid gray; */
+    box-shadow: 1px 0px 5px 1px rgb(230 230 230);
+    margin: 10px 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.stockinnews-company-logo {
+    width: 70px;
+    height: 30px;
+    padding-bottom: 30px;
+}
+
+.stockinnews-company-name {
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+
+.stockinnews-company-prise {
+    /* padding: 8px; */
+    /* background-color: green; */
+    margin-top: -25px;
+}
+
+.stockinnews-price-fluctuation {
+    padding-top: 10px;
+    font-size: 15px;
+    /* background-color: rgb(55, 0, 128); */
+}
+
+.top-sector-section-container {}
+
+.top-sector-setion {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    padding-left: 10px;
+}
+
+.top-section-text {
+    flex: 2;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.see-all {
+    flex: 8;
+    color: rgb(106, 216, 170);
+    font-size: 12px;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+
+.top-sector-category-boxes-conainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.category-box-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    /* background-color: green; */
+    /* margin-top: 60px; */
+    /* margin-left: 10px; */
+    border: 2px solid #bfbfc2;
+    border-radius: 7px;
+    box-shadow: 0px 5px 5px #F4F4F4;
+    margin: 10px 15px;
+
+
+
+}
+
+.category {
+    font-size: 15px;
+    padding: 6px 8px;
+    color: rgb(78, 77, 77);
+}
+
+.total-category-count {
+    font-size: 13px;
+    padding: 7px 8px;
+    color: rgb(77, 202, 175);
+}
+
+.top-by-market-cap-section-container {
+    /* margin-top: 25px; */
+}
+
+.top-by-market-cap-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.top-by-market-cap-section-text {
+    flex: 3;
+    font-size: 20px;
+}
+
+.top-section-nifty100-text {
+    flex: 1;
+    font-size: 14px;
+    margin-left: -90px;
+    /* text-align: left; */
+    /* background-color: blue; */
+    margin-top: 6px;
+    color: rgb(56, 212, 173);
+}
+
+.top-by-market-see-all {
+    text-align: right;
+    flex: 6;
+    color: rgb(106, 216, 170);
+    font-size: 12px;
+    margin-right: 20px;
+
+
+}
+
+
+.graph-overview-table {
+    margin-left: 20px;
+    width: 800px;
+    height: auto;
+    border: 3px solid rgb(245, 245, 245);
+    /* border-radius: 10px 0px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border-bottom-left-radius: ;
+border-bottom-right-radius: ; */
+    /* padding-top: 10px; */
+    /* background-color: grey; */
+}
+
+.company {
+    padding: 10px 4px;
+    width: 250px;
+    text-align: left;
+
+}
+
+.mp {
+    padding: 5px 0px;
+    width: 200px;
+
+}
+
+.wl {
+    padding: 5px 0px;
+    width: 100px;
+
+
+}
+
+.graph {
+    padding: 5px 0px;
+    width: 300px;
+
+
+}
+
+.name {
+    padding: 5px;
+}
+
+.line-graph {
+    padding: 5px;
+}
+
+.market-p {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.add-wl {
+    text-align: center;
+    padding: 5px;
+    color: rgb(56, 212, 173);
+}
+
+.amt-pl {
+    color: rgb(255, 166, 0);
+    padding: 5px;
+    color: rgb(56, 212, 173);
+    font-size: 13px;
+
+}
+
+td,
+th {
+    /* border-bottom: 5px solid grey; */
+    /* border-bottom: indigo; */
+    /* background-color: indigo; */
+    border-bottom: 1px solid rgb(221, 221, 221);
+    /* padding: 20px; */
+    /* background-color: rgb(106, 216, 170); */
+}
+
+.th {
+    background-color: #F6F6F7;
+    padding: 15px 10px;
+
+}
+
+.pagination {
+    padding: 20px 0px;
+    margin: 0px 20px;
+    text-align: center;
+    margin-top: -5px;
+    /* background-color: hotpink; */
+    margin-bottom: 20px;
+    width: 800px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px 5px #aaa9a9;
+
+
+}
+
+/* th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    background-color: grey;
+  } */
+
+.material-icons.md-29 {
+    color: rgb(77, 202, 171);
+    margin-top: 10px;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+.page-no {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.pn {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: black;
+
+}
+
+.othet-option-container {
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    margin-left: 20px;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 3px 5px 3px #d4d4d4;
+    border-radius: 10px;
+    padding-bottom: 0px;
+
+    /* margin-right: -50px; */
+    /* margin: auto; */
+
+}
+
+.option-container {
+    padding: 8px;
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(219, 216, 216);
+
+}
+
+.ui {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    padding-left: 2px;
+
+}
+
+.ui-text {
+    flex: 9;
+    margin-left: 5px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.other-options-investmet-detail-container {
+    /* border: 1px solid green; */
+    flex: 4;
+}
+
+.your-investment-section-container {
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 300px;
+    margin: 5px;
+    margin-left: 20px;
+    /* box-shadow: 1px 1px 5px 5px #d4d4d4; */
+    border-radius: 10px;
+    margin-top: 35px;
+}
+
+.your-investment-header-container {
+    padding: 10px;
+}
+
+.yi-text-container {
+    font-size: 20px;
+}
+
+.strech-icon-img {
+    float: right;
+}
+
+.your-investment-sub-header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.current-detail-container {
+
+    flex: 9;
+    text-align: right;
+}
+
+.retur-amt {
+    font-size: 20px;
+    color: rgb(211, 74, 74);
+}
+
+.current-amt {
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
+
+.current-text {
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(136, 136, 136);
+}
+
+.return-text {
+    font-size: 17px;
+    color: rgb(136, 136, 136);
+    padding-top: 10px;
+}
+
+
+.your-stock-listing {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding-bottom: 20px;
+
+}
+
+.stock-name-holdings-container {}
+
+.stock-name {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(70, 70, 70);
+}
+
+.stock-holding {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+.current-buying-price-container {
+    flex: 9;
+    text-align: right;
+
+}
+
+.current-stock-amt {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(85, 202, 120);
+}
+
+.stock-buy-amt {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.watchlist-header {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.watchlist-section-container {
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 300px;
+    /* background-color: hotpink; */
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* border: 1px solid grey; */
+    box-shadow: 0px 3px 5px 3px #d4d4d4;
+    border-radius: 10px;
+
+}
+
+.watchlist-stock-name {
+    padding-top: 13px;
+}
+
+.watchlist-stock-price-diff {
+    color: rgb(192, 86, 86);
+}
+
+.watchlist-stock-price {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgb(85, 202, 120);
+}
+
+.watchlist-stock-price-diff {
+    margin-top: 3px;
+    font-size: 15px;
+}
